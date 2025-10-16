@@ -1,0 +1,20 @@
+{
+  "name": "google-scraper",
+  "version": "1.0.0",
+  "description": "A Cloudflare Worker to scrape Google search results.",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@cloudflare/puppeteer": "^0.0.10"
+  },
+  "devDependencies": {
+    "wrangler": "^3.80.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
